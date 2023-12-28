@@ -7,7 +7,7 @@ import CategoryArea from './category-area';
 import ServiceArea from '@/src/components/homes/home/service-area';
 import CtaArea from './cta-area';
 import FeatureArea from './feature-area';
-import TestimonialArea from '../../../components/homes/home-2/testimonial-area';
+import TestimonialArea from '../home-2/testimonial-area';
 import BrandArea from '../../../common/brand-area';
 import TeamArea from '../../../common/team-area';
 import BlogArea from '../../../common/blog-area';

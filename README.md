@@ -1,12 +1,7 @@
 #Developed by
-## ThemePure
-Technix React Next js Template 
+## Asparrow Tech
+Asparrow TechReact Next js Template 
 
-```bash
-technix next js
-
-
-```# asparrow
 # asparrow
 # asparrow
 # asparrow
