@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
 import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
+import service_details_thumb from  "@assets/img/services/service-details/custom.jpg";
 import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
@@ -17,11 +17,9 @@ const service_details_content = {
         {id: 5, title: "Marketing Analysis", active: ""},
         {id: 6, title: "Media Marketing", active: ""},
     ],
-    title: <>Digital Marketing</>,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis
-    accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to
-    consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis?
-    Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</>,
+    title: <>Custom Software Development</>,
+    description: <>Welcome to <b>Asparrow Tech</b>. We don't just develop software; we craft digital experiences that empower your business to thrive.
+     Our holistic approach to software development combines the latest technologies with a deep understanding of your industry and objectives.</>,
     title_2: <>Why Marketing Important ?</>,
     description_2: <>Lorem ipsum dolor sit amet, consectetur adipisici sed do eiusmod tempor incididunt ut labore et </>,
     feture_list: [

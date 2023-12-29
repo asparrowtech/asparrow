@@ -51,8 +51,8 @@ const menu_data = [
     link: "",
     active:"",
     sub_menus: [
-      { link: "/web-app", title: "Web Application"},
-      { link: "/mobile-app", title: "Mobile Application"},
+      { link: "/web-app", title: "Web Development"},
+      { link: "/mobile-app", title: "Mobile Development"},
       { link: "/crm-dev", title: "CRM Development"},
       { link: "/cms-dev", title: "CMS Development"},
       { link: "/custom-dev", title: "Custom Software Development"},

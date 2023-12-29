@@ -3,25 +3,24 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
 import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
+import service_details_thumb from  "@assets/img/services/service-details/digital.jpg";
 import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
 
 const service_details_content = {
-    service_details_tab: [
-        {id: 1, title: "Consumer Product", active: ""},
-        {id: 2, title: "Marketing Analysis", active: ""},
-        {id: 3, title: "Speed Optimization", active: ""},
-        {id: 4, title: "Email Marketing", active: ""},
-        {id: 5, title: "Marketing Analysis", active: ""},
-        {id: 6, title: "Media Marketing", active: ""},
-    ],
+   //  service_details_tab: [
+   //      {id: 1, title: "Consumer Product", active: ""},
+   //      {id: 2, title: "Marketing Analysis", active: ""},
+   //      {id: 3, title: "Speed Optimization", active: ""},
+   //      {id: 4, title: "Email Marketing", active: ""},
+   //      {id: 5, title: "Marketing Analysis", active: ""},
+   //      {id: 6, title: "Media Marketing", active: ""},
+   //  ],
     title: <>Digital Marketing</>,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis
-    accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to
-    consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis?
-    Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</>,
+    description: <>Welcome to <b>Asparrow Tech</b>, where digital marketing meets innovation and strategy. 
+    Our team of skilled marketers is passionate about crafting digital campaigns that drive results and exceed your business goals.
+     With a focus on data-driven insights, creativity, and a commitment to delivering exceptional ROI, we help you thrive in the digital landscape.</>,
     title_2: <>Why Marketing Important ?</>,
     description_2: <>Lorem ipsum dolor sit amet, consectetur adipisici sed do eiusmod tempor incididunt ut labore et </>,
     feture_list: [

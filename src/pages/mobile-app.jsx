@@ -6,7 +6,7 @@ import Wrapper from '../layout/wrapper'
 const Mobile = () =>{
     return(
         <Wrapper>
-           <SEO pageTitle={"Mobile Application"}></SEO>
+           <SEO pageTitle={"Mobile Development"}></SEO>
            <MobileApp/>
         </Wrapper>
     )

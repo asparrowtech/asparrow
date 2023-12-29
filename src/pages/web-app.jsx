@@ -7,7 +7,7 @@ import ServiceDetails from '../components/web-app';
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle={"Service Details"} />
+            <SEO pageTitle={"Web Development"} />
             <ServiceDetails />
         </Wrapper>
     );

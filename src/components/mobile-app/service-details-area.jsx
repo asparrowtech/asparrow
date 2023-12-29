@@ -2,38 +2,29 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
-import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
+import service_details_thumb from  "@assets/img/services/service-details/mobile.jpg";
 import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
 
 const service_details_content = {
-    service_details_tab: [
-        {id: 1, title: "Consumer Product", active: ""},
-        {id: 2, title: "Marketing Analysis", active: ""},
-        {id: 3, title: "Speed Optimization", active: ""},
-        {id: 4, title: "Email Marketing", active: ""},
-        {id: 5, title: "Marketing Analysis", active: ""},
-        {id: 6, title: "Media Marketing", active: ""},
-    ],
-    title: <>Digital Marketing</>,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis
-    accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to
-    consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis?
-    Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</>,
+    title: <>Mobile Development</>,
+    description: <>Welcome to <b>Asparrow Tech</b>. Where mobile app development meets innovation and user-centric design 
+    Our team of dedicated developers and designers is passionate about creating mobile applications that not only meet but
+    exceed user expectations. With a focus on cutting-edge technology, stunning UI/UX, and a commitment to delivering exceptional 
+    results, we bring your app ideas to life.</>,
     title_2: <>Why Marketing Important ?</>,
-    description_2: <>Lorem ipsum dolor sit amet, consectetur adipisici sed do eiusmod tempor incididunt ut labore et </>,
+    description_2: <>We understand that the business needs to move in all areas to prosper. In accordance, we do the following tasks to see that your
+     app fulfills all that you expect out of it. </>,
     feture_list: [
-        <>Research beyond the business plan</>,
-        <>Marketing options and rates</>,
-        <>The ability to turnaround consulting</>,
+        <>Developing the web and portal apps for mobiles and laptops</>,
+        <>Developing a middleware app to synchronize end-to-end integration</>,
+        <>Developing composite applications that make your present applications geared for the future</>,
+        <>Design, support, and maintenance of the web applications</>,
     ],
-    description_3: <>Need something changed or is there something not quite working the way you envisaged? Is your van a
-    little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
-    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</>,
+    description_3: <>We will first discuss with you the actual reason why you are looking for an app. 
+    Then we will share with you the different formats that we usually suggest for any new business to choose from. 
+    We offer the development and maintenance of the mobile app, so your business reaches everyone’s smartphone.</>,
 
 
 }
@@ -84,8 +75,8 @@ const ServiceDetailsArea = () => {
                         <h3 className="tp-service-details-title">{title}</h3>
                         <p>{description}</p>
                         <div className="row">
-                           <div className="col-lg-6">
-                              <div className="tp-service-details-thumb p-relative">
+                           {/* <div className="col-lg-6">
+                              <div className=" p-relative">
                                  <Image src={service_video_thumb} alt="theme-pure" />
                                  <div className="tp-video-play text-center">
                                     <a className="popup-video effect-1 effect-2" 
@@ -94,10 +85,10 @@ const ServiceDetailsArea = () => {
                                     </a>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
                            <div className="col-lg-6">
                               <div className="tp-service-details-list">
-                                 <h3 className="tp-service-details-title">{title_2}</h3>
+                                 {/* <h3 className="tp-service-details-title">{title_2}</h3> */}
                                  <p>{description_2}</p>
                                  <ul>
                                     {feture_list.map((item, i) => 

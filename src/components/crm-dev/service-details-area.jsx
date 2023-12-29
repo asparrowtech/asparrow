@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
 import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/img-1.jpg";
+import service_details_thumb from  "@assets/img/services/service-details/crm.jpeg";
 import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
@@ -17,23 +17,24 @@ const service_details_content = {
         {id: 5, title: "Marketing Analysis", active: ""},
         {id: 6, title: "Media Marketing", active: ""},
     ],
-    title: <>Digital Marketing</>,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui ducimus illum modi?  perspiciatis
-    accusamus soluta perferendis, ad illum, nesciunt, reiciendis iusto et cupidit Repudiandae provident to
-    consectetur, sapiente, libero iure necessitatibus corporis nulla voluptate, quisquam aut perspiciatis?
-    Fugiat labore aspernatur eius, perspiciatis ut molestiae, delectus rem.</>,
-    title_2: <>Why Marketing Important ?</>,
-    description_2: <>Lorem ipsum dolor sit amet, consectetur adipisici sed do eiusmod tempor incididunt ut labore et </>,
+    title: <>CRM Development</>,
+    description: <>Welcome to <b>Asparrow Tech</b>. CRM Development tailors software solutions to streamline customer interactions, providing businesses with a 
+    centralized platform for efficient management of sales, marketing, and customer service. With features like contact management, 
+    lead tracking, and analytics, it enhances productivity, fosters customer loyalty, and delivers valuable insights for strategic decision-making. 
+    This technology is crucial for businesses seeking to optimize relationships and create personalized experiences throughout the customer lifecycle.</>,
+    description_2: <>See three common CRM data categories below:</>,
     feture_list: [
-        <>Research beyond the business plan</>,
-        <>Marketing options and rates</>,
-        <>The ability to turnaround consulting</>,
+        <><b>Operational CRM</b><br/>Operational CRM data refers to information that allows teams to better perform key tasks, such as sales, marketing, and customer service.
+
+        <br/>For example, customer support tickets or where a customer is in your deal pipeline would fall into this category.</>,
+        <><b>Analytical CRM</b><br/>Analytical CRM data is — not surprisingly — used for analysis. By understanding the relationship between specific data points or data types, business leaders are better equipped to make both short- and long-term strategic decisions.</>,
+        <><b>Collaborative CRM</b><br/>Collaborative CRM data is shared among team members and across departments to create a unified source of customer truth. This allows staff to complete key tasks more quickly and helps ensure that when customers contact your company, they don’t need to fill in the blanks about previous purchases or problems.
+
+        </>,
     ],
-    description_3: <>Need something changed or is there something not quite working the way you envisaged? Is your van a
-    little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
-    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</>,
+    description_3: <><br/>As every business is different from another, one CRM for all businesses does not suit at all. For this reason, we are also offering custom CRM development solutions as well.
+
+    We are having a very solid track record in building very complex and highly scalable business applications and SaaS based apps.</>,
 
 
 }
@@ -84,7 +85,7 @@ const ServiceDetailsArea = () => {
                         <h3 className="tp-service-details-title">{title}</h3>
                         <p>{description}</p>
                         <div className="row">
-                           <div className="col-lg-6">
+                           {/* <div className="col-lg-6">
                               <div className="tp-service-details-thumb p-relative">
                                  <Image src={service_video_thumb} alt="theme-pure" />
                                  <div className="tp-video-play text-center">
@@ -94,10 +95,10 @@ const ServiceDetailsArea = () => {
                                     </a>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
                            <div className="col-lg-6">
                               <div className="tp-service-details-list">
-                                 <h3 className="tp-service-details-title">{title_2}</h3>
+                                 {/* <h3 className="tp-service-details-title">{title_2} </h3> */}
                                  <p>{description_2}</p>
                                  <ul>
                                     {feture_list.map((item, i) => 

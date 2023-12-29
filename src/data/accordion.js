@@ -1,8 +1,8 @@
 const accordion = [
   {
     id: 1,
-    question: <>How to learn digital marketing?</>,
-    answer: <>A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders...</> ,
+    question: <>Can you provide examples of websites you've developed?</>,
+    answer: <>Certainly, here's our portfolio showcasing various projects</> ,
     accordion_id: "One", 
     collapsed: "",
     aria_expanded: "true",
@@ -10,8 +10,8 @@ const accordion = [
   },
   {
     id: 2,
-    question: <> Can I use the demos made by Ewebot?</>,
-    answer: <>Ne summo dictas pertinacia nam. Illum cetero vocent ei vim, case regione signiferumque vim te. Ex mea quem munere lobortis. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</> ,
+    question: <> What is your approach to project management?</>,
+    answer: <>We follow an agile project management methodology, ensuring flexibility and regular client updates.</> ,
     accordion_id: "Two", 
     collapsed: "collapsed",
     aria_expanded: "false",
@@ -19,8 +19,8 @@ const accordion = [
   },
   {
     id: 3,
-    question: <>Why didn’t you showcase my submission?</>,
-    answer: <>A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders..</> ,
+    question: <>How do you ensure mobile responsiveness?</>,
+    answer: <>We design and test websites to be responsive on various devices, ensuring optimal user experience.</> ,
     accordion_id: "Three", 
     collapsed: "collapsed",
     aria_expanded: "false",
@@ -28,8 +28,8 @@ const accordion = [
   },
   {
     id: 4,
-    question: <>What everybody ought to know about digital marketing?</>,
-    answer: <>A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. A startup or start-up is started by individual founders..</> ,
+    question: <>How do you handle changes in project scope or requirements?</>,
+    answer: <>We discuss changes with clients, assess impacts, and provide transparent updates to the project timeline and cost.</> ,
     accordion_id: "Four", 
     collapsed: "collapsed",
     aria_expanded: "false",
