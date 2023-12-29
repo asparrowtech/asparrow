@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from '../layout/wrapper';
 import SEO from '../common/seo';
-import ServiceDetails from '../components/service-details';
+import ServiceDetails from '../components/web-app';
 
 
 const index = () => {
@@ -9,7 +9,6 @@ const index = () => {
         <Wrapper>
             <SEO pageTitle={"Service Details"} />
             <ServiceDetails />
-           
         </Wrapper>
     );
 };

@@ -21,7 +21,7 @@ const menu_data = [
     has_dropdown: false,
     home_icon: <HomeIcon />,
     title: "Home",
-    link: "/home-3", 
+    link: "/home", 
   },
   {
     id: 2,
@@ -51,12 +51,12 @@ const menu_data = [
     link: "",
     active:"",
     sub_menus: [
-      { link: "/service-details", title: "Web Application"},
-      { link: "/Users/bhavana/Desktop/technixreact-10/technixreact-10/technix-next/src/components/mobile-app", title: "Mobile Application"},
-      { link: "/service-details", title: "CRM Development"},
-      { link: "/service-details", title: "CMS Development"},
-      { link: "/service-details", title: "Custom Software Development"},
-      { link: "/service-details", title: "Digital Marketing"}
+      { link: "/web-app", title: "Web Application"},
+      { link: "/mobile-app", title: "Mobile Application"},
+      { link: "/crm-dev", title: "CRM Development"},
+      { link: "/cms-dev", title: "CMS Development"},
+      { link: "/custom-dev", title: "Custom Software Development"},
+      { link: "/digital-marketing", title: "Digital Marketing"}
     ]
 
   },
