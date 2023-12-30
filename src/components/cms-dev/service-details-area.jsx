@@ -123,7 +123,7 @@ const ServiceDetailsArea = () => {
 
                            
                         </div>
-                        <div >
+                           <div >
                               <div className="tp-service-details-list">
                                  <h3 className="tp-service-details-title">{title_3}</h3>
                                  <p>{description_4}</p>

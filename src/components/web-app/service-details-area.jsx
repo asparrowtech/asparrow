@@ -98,7 +98,7 @@ const ServiceDetailsArea = () => {
                         </div> */}
                         <p>{description_3}</p>
                         <Image src={service_video_thumb} alt="theme-pure" />
-                        <Image src={Wordpress} alt="theme-pure" style={{margin:"2rem"}}/>
+                        <Image src={Wordpress} alt="theme-pure" style={{margxin:"2rem"}}/>
                         
                         {/* <div className="col-lg-6">
                               <div className="tp-service-details-thumb p-relative">
