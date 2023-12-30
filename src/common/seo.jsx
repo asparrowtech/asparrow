@@ -1,5 +1,6 @@
 import Head from "next/head";
-
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 const SEO = ({ pageTitle }) => (
   <>
     <Head>
@@ -9,6 +10,8 @@ const SEO = ({ pageTitle }) => (
       <meta name="robots" content="noindex, follow" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link rel="icon" href="/asparrow-favicon.png" />
+      <Analytics />
+        <SpeedInsights />
     </Head>
   </>
 );
