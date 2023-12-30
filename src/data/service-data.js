@@ -9,9 +9,9 @@ const service_data = [
     {
         id: 1, 
         alphabet: "P",
-        title: <>Digital <br /> Marketing</>,
+        title: <>Web <br /> Development</>,
         img: service_img_1,
-        description: <>Online strategies to promote products, engage audiences, and drive business growth effectively </>,        
+        description: <>Designing and building responsive websites for optimal user experiences and functionality </>,        
 
     },
     {
@@ -41,10 +41,11 @@ const service_data = [
     {
         id: 5, 
         alphabet: "D",
-        title: <>Web <br /> Development</>,
+        title: <>Digital <br /> Marketing</>,
         img: service_img_2,
-        description: <>Designing and building responsive websites for optimal user experiences and functionality </>,        
+        description: <>Online strategies to promote products, engage audiences, and drive business growth effectively</>,        
 
     },
+    
 ]
 export default service_data

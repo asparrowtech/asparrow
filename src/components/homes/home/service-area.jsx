@@ -123,9 +123,9 @@ const ServiceArea = () => {
                                  {service_data.map((item, i) => 
                                  <SplideSlide key={i}>
                                        <div className="tp-service-wrapper p-relative mb-55">
-                                          <div className="tp-service-designation">
+                                          {/* <div className="tp-service-designation">
                                              <p>{item.alphabet}</p>
-                                          </div>
+                                          </div> */}
                                           <h3 className="service-title">{item.title}</h3>
                                           <div className="tp-service-icon">
                                              <Image src={item.img} alt="theme-pure" />
