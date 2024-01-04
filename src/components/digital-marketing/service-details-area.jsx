@@ -22,11 +22,19 @@ const service_details_content = {
     Our team of skilled marketers is passionate about crafting digital campaigns that drive results and exceed your business goals.
      With a focus on data-driven insights, creativity, and a commitment to delivering exceptional ROI, we help you thrive in the digital landscape.</>,
     title_2: <>Why Marketing Important ?</>,
-    description_2: <>Lorem ipsum dolor sit amet, consectetur adipisici sed do eiusmod tempor incididunt ut labore et </>,
+    description_2: <>Digital marketing is essential for businesses seeking to connect with a broader audience, 
+    drive brand growth, and adapt to the ever-changing landscape of the digital world. Its effectiveness, cost-efficiency, 
+    and ability to provide measurable results make it a cornerstone of modern marketing strategies. </>,
     feture_list: [
-        <>Research beyond the business plan</>,
-        <>Marketing options and rates</>,
-        <>The ability to turnaround consulting</>,
+        <>Connect with a worldwide audience beyond geographical constraints.</>,
+        <>Often more budget-friendly than traditional marketing methods.</>,
+        <>Precisely reach specific demographics, interests, and behaviors.</>,
+        <>Real-time analytics provide insights for immediate adjustments.</>,
+        <>Foster audience participation and build brand relationships.</>,
+        <>Increase recognition and awareness through online channels.</>,
+        <>Quickly adjust campaigns based on performance and market changes.</>,
+        <>Gain an edge over competitors embracing digital strategies.</>,
+        <>Obtain valuable insights into market trends, customer behavior, and competitors.</>
     ],
     description_3: <>Need something changed or is there something not quite working the way you envisaged? Is your van a
     little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -83,7 +91,7 @@ const ServiceDetailsArea = () => {
                         <h3 className="tp-service-details-title">{title}</h3>
                         <p>{description}</p>
                         <div className="row">
-                           <div className="col-lg-6">
+                           {/* <div className="col-lg-6">
                               <div className="tp-service-details-thumb p-relative">
                                  <Image src={service_video_thumb} alt="theme-pure" />
                                  <div className="tp-video-play text-center">
@@ -93,8 +101,8 @@ const ServiceDetailsArea = () => {
                                     </a>
                                  </div>
                               </div>
-                           </div>
-                           <div className="col-lg-6">
+                           </div> */}
+                           {/* <div className="col-lg-6"> */}
                               <div className="tp-service-details-list">
                                  <h3 className="tp-service-details-title">{title_2}</h3>
                                  <p>{description_2}</p>
@@ -104,9 +112,10 @@ const ServiceDetailsArea = () => {
                                     )} 
                                  </ul>
                               </div>
-                           </div>
+                           {/* </div> */}
                         </div>
-                        <p>{description_3}</p>
+                        {/* <p>{description_3}</p> */}
+                        <br/>
 
                         <div className="tp-service-details-faq faq-style-1">
                            <div className="tp-faq-tab-content tp-accordion">

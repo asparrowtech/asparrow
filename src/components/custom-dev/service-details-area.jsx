@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
 import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/custom.jpg";
+import service_details_thumb from  "@assets/img/services/service-details/software.jpeg";
 import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
@@ -17,21 +17,24 @@ const service_details_content = {
         {id: 5, title: "Marketing Analysis", active: ""},
         {id: 6, title: "Media Marketing", active: ""},
     ],
-    title: <>Custom Software Development</>,
+    title: <>Software Development</>,
     description: <>Welcome to <b>Asparrow Tech</b>. We don't just develop software; we craft digital experiences that empower your business to thrive.
      Our holistic approach to software development combines the latest technologies with a deep understanding of your industry and objectives.</>,
-    title_2: <>Why Marketing Important ?</>,
-    description_2: <>Lorem ipsum dolor sit amet, consectetur adipisici sed do eiusmod tempor incididunt ut labore et </>,
+    title_2: <>Development Process We Follow</>,
+    description_2: <>Our team of highly skilled developers follows a superior development process to provide the best development services. </>,
     feture_list: [
-        <>Research beyond the business plan</>,
-        <>Marketing options and rates</>,
-        <>The ability to turnaround consulting</>,
+        <>Requirement Gathering</>,
+        <>Software Design</>,
+        <>Prototyping</>,
+        <>Software Development</>,
+        <>Software Testing</>,
+        <>Deployment</>,
+        <>Support & Maintenance</>
     ],
-    description_3: <>Need something changed or is there something not quite working the way you envisaged? Is your van a
-    little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
-    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-    only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</>,
+    description_3: <>Software development can follow various methodologies, such as Agile, Waterfall,
+     or DevOps, and may involve specialized roles like software engineers, architects, testers, and project managers.
+      The process can vary depending on the nature of the software, project size, and specific requirements. 
+      Continuous learning and adaptation are essential in the dynamic field of software development.</>,
 
 
 }
@@ -82,7 +85,7 @@ const ServiceDetailsArea = () => {
                         <h3 className="tp-service-details-title">{title}</h3>
                         <p>{description}</p>
                         <div className="row">
-                           <div className="col-lg-6">
+                           {/* <div className="col-lg-6">
                               <div className="tp-service-details-thumb p-relative">
                                  <Image src={service_video_thumb} alt="theme-pure" />
                                  <div className="tp-video-play text-center">
@@ -92,8 +95,8 @@ const ServiceDetailsArea = () => {
                                     </a>
                                  </div>
                               </div>
-                           </div>
-                           <div className="col-lg-6">
+                           </div> */}
+                           {/* <div className="col-lg-6"> */}
                               <div className="tp-service-details-list">
                                  <h3 className="tp-service-details-title">{title_2}</h3>
                                  <p>{description_2}</p>
@@ -103,7 +106,7 @@ const ServiceDetailsArea = () => {
                                     )} 
                                  </ul>
                               </div>
-                           </div>
+                           {/* </div> */}
                         </div>
                         <p>{description_3}</p>
 

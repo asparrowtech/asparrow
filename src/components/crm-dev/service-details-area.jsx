@@ -22,7 +22,7 @@ const service_details_content = {
     centralized platform for efficient management of sales, marketing, and customer service. With features like contact management, 
     lead tracking, and analytics, it enhances productivity, fosters customer loyalty, and delivers valuable insights for strategic decision-making. 
     This technology is crucial for businesses seeking to optimize relationships and create personalized experiences throughout the customer lifecycle.</>,
-    description_2: <>See three common CRM data categories below:</>,
+    description_2: <><h4>See three common CRM data categories below:</h4></>,
     feture_list: [
         <><b>Operational CRM</b><br/>Operational CRM data refers to information that allows teams to better perform key tasks, such as sales, marketing, and customer service.
 
@@ -96,7 +96,7 @@ const ServiceDetailsArea = () => {
                                  </div>
                               </div>
                            </div> */}
-                           <div className="col-lg-6">
+                           {/* <div className="col-lg-6"> */}
                               <div className="tp-service-details-list">
                                  {/* <h3 className="tp-service-details-title">{title_2} </h3> */}
                                  <p>{description_2}</p>
@@ -106,7 +106,7 @@ const ServiceDetailsArea = () => {
                                     )} 
                                  </ul>
                               </div>
-                           </div>
+                           {/* </div> */}
                         </div>
                         <p>{description_3}</p>
 
