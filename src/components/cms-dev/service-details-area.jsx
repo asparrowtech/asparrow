@@ -62,34 +62,9 @@ const ServiceDetailsArea = () => {
             <section className="tp-service-details-area pt-120 pb-120">
             <div className="container">
                <div className="row">
-                  <div className="col-lg-4">
-                     {/* <div className="tp-service-widget">
-
-                        <div className="tp-service-widget-item mb-40">
-                           <div className="tp-service-widget-tab">
-                              <ul>
-                                   {service_details_tab.map((item, i)  => 
-                                    <li key={i}>
-                                        <Link className={item.active} href="/service-details">
-                                        {item.title} <i className="fa-regular fa-arrow-right-long"></i>
-                                        </Link>
-                                    </li>
-                                    )}
-                              </ul>
-                           </div>
-                        </div>
-
-                        <div className="tp-service-widget-item mb-40">
-                           <div className="tp-service-contact">
-                              <div className="tp-service-contact-form">
-                                <ServiceContactForm />
-                                 <p className="ajax-response"></p>
-                              </div>
-                           </div>
-                        </div>
-
-                     </div> */}
-                  </div>
+                  {/* <div className="col-lg-4">
+                     
+                  </div> */}
                   <div className="col-lg-8">
                      <div className="tp-service-details-wrapper">
                         <div className="tp-service-details-thumb">
@@ -101,12 +76,6 @@ const ServiceDetailsArea = () => {
                            <div className="col-lg-6">
                               <div className="tp-service-details-thumb p-relative">
                                  <Image src={service_video_thumb} alt="theme-pure" />
-                                 {/* <div className="tp-video-play text-center">
-                                    <a className="popup-video effect-1 effect-2" 
-                                        onClick={() => setIsVideoOpen(true)}  
-                                        ><i className="fa-sharp fa-solid fa-play"></i>
-                                    </a>
-                                 </div> */}
                               </div>
                            </div>
                            <div className="col-lg-6">
