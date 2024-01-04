@@ -55,7 +55,7 @@ const menu_data = [
       { link: "/mobile-app", title: "Mobile Development"},
       { link: "/crm-dev", title: "CRM Development"},
       { link: "/cms-dev", title: "CMS Development"},
-      { link: "/custom-dev", title: "Software Development"},
+      { link: "/custom-dev", title: "Custom Software Development"},
       { link: "/digital-marketing", title: "Digital Marketing"}
     ]
 
