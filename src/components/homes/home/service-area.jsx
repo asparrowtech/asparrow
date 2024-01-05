@@ -199,7 +199,8 @@ const ServiceArea = () => {
                                     </span>
                                  </h3>
                                  <p>
-                                    Our company provides a full range of services for the construction of <br /> private houses and cottages since 19
+                                 Asparrow Tech is a leading IT company specializing in delivering cutting-edge solutions in website development, 
+                                 mobile application development, and digital marketing services since 2019. 
                                  </p>
                                  <ul>
                                     <li>

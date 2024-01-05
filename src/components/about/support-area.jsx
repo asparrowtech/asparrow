@@ -7,10 +7,10 @@ import { useState } from "react";
 import Image from "next/image";
 
 
-import support_img_1 from "@assets/img/about/home-3/img-1.jpg";
-import support_img_2 from "@assets/img/about/home-3/img-2.jpg";
-import support_img_3 from "@assets/img/about/home-3/img-3.jpg";
-import support_shape from "@assets/img/about/home-3/shape-1.png";
+import support_img_1 from "@assets/img/about/home-3/img-1.webp";
+import support_img_2 from "@assets/img/about/home-3/img-2.webp";
+import support_img_3 from "@assets/img/about/home-3/img-3.webp";
+import support_shape from "@assets/img/about/home-3/shape-1.webp";
 
 const support_contact = {
    sub_title_1: "We’ve been stay",

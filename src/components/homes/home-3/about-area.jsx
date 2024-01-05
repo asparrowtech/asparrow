@@ -4,14 +4,14 @@ import React,{useState} from 'react';
 import AngleArrow from '@/src/svg/angle-arrow';
 import VideoPopup from '@/src/modals/video-popup';
 // about img import here
-import about_img_1 from "@assets/img/about/home-3/shape-4.png";
-import about_img_2 from "@assets/img/about/home-3/img-1.jpg";
-import about_img_3 from "@assets/img/about/home-3/img-2.jpg";
-import about_img_4 from "@assets/img/about/home-3/img-3.jpg";
+import about_img_1 from "@assets/img/about/home-3/shape-4.webp";
+import about_img_2 from "@assets/img/about/home-3/img-1.webp";
+import about_img_3 from "@assets/img/about/home-3/img-2.webp";
+import about_img_4 from "@assets/img/about/home-3/img-3.webp";
 // about shape import here
-import about_shape_1 from "@assets/img/about/home-3/shape-1.png";
-import about_shape_2 from "@assets/img/about/home-3/shape-2.png";
-import about_shape_3 from "@assets/img/about/home-3/shape-3.png"; 
+import about_shape_1 from "@assets/img/about/home-3/shape-1.webp";
+import about_shape_2 from "@assets/img/about/home-3/shape-2.webp";
+import about_shape_3 from "@assets/img/about/home-3/shape-3.webp"; 
 // import progressbar   
 import { CircularProgressbar} from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -52,12 +52,12 @@ const AboutArea = ({about}) => {
                             <Image className="shape-1" src={about_img_3} alt="theme-pure" />
                             <div className="shape-2 p-relative">
                             <Image src={about_img_4} alt="theme-pure" />
-                            <div className="tp-video-play">
+                            {/* <div className="tp-video-play">
                                 <a className="popup-video" 
                                 onClick={() => setIsVideoOpen(true)}>
                                     <i className="fa-sharp fa-solid fa-play"></i>
                                 </a>
-                            </div>
+                            </div> */}
                             </div>
                             <Image className="shape-3" src={about_shape_1} alt="theme-pure" />
                             <Image className="shape-4" src={about_shape_2} alt="theme-pure" />
@@ -78,9 +78,9 @@ const AboutArea = ({about}) => {
                                 </h3> 
                             </div>
                             <p className="text">
-                                Transmax is the world’s driving worldwide coordinations supplier — we <br /> uphold industry and exchange the worldwide trade of merchandise <br /> through land transport.
+                            Innovate, Transform, Succeed. Asparrow Tech – Your Catalyst for Digital Excellence. Elevating businesses through cutting-edge website development, mobile applications, and dynamic digital marketing services. Your journey to success starts here.
                             </p>
-                            <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
+                            {/* <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
                             <div className="tp-about-3-progressbar d-flex align-items-center">
                                 <div className="circular tl-progress"> 
                                     <CircularProgressbar
@@ -106,7 +106,7 @@ const AboutArea = ({about}) => {
                                     <p>Health Valuable <br /> Ideas</p>
                                 </div>
                             </div>
-                            </div>
+                            </div> */}
                             <div className="tp-about-3-btn-inner d-flex flex-wrap">
                             <div className="tp-about-btn ">
                                 <Link className="tp-btn" href="/about">Our History 
@@ -115,10 +115,10 @@ const AboutArea = ({about}) => {
                             </div>
                             <div className="tp-about-3-year">
                                 <p>
-                                    BRENDON GARREY
+                                    HARSHIT CHOURASIYA
                                     <br />
                                     <span>
-                                        mayor, since 21st Oct , 2019
+                                        Founder, since 19th Feb , 2019
                                     </span>
                                 </p>
                             </div>
