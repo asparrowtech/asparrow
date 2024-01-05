@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
-import service_details_thumb from  "@assets/img/services/service-details/mobile.jpg";
-import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
+import service_details_thumb from  "@assets/img/services/service-details/mobile.webp";
+// import service_video_thumb from  "@assets/img/services/service-details/img-2.jpg";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
 

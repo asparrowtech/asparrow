@@ -3,8 +3,8 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
 import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/cms.jpeg";
-import service_video_thumb from  "@assets/img/services/service-details/cms2.jpeg";
+import service_details_thumb from  "@assets/img/services/service-details/cms.webp";
+import service_video_thumb from  "@assets/img/services/service-details/cms2.webp";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
 

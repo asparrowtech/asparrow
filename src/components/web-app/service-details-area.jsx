@@ -3,9 +3,9 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import VideoPopup from '@/src/modals/video-popup';
 import ServiceContactForm from '@/src/forms/service-contact-form';
-import service_details_thumb from  "@assets/img/services/service-details/web-app.jpg";
-import service_video_thumb from  "@assets/img/services/service-details/react.jpg";
-import Wordpress from "@assets/img/services/service-details/wordpress.jpg";
+import service_details_thumb from  "@assets/img/services/service-details/web-app.webp";
+import service_video_thumb from  "@assets/img/services/service-details/react.webp";
+import Wordpress from "@assets/img/services/service-details/wordpress.webp";
 import RightSymbol from '@/src/svg/right-symbol';
 import accordion from '@/src/data/accordion';
 
