@@ -54,24 +54,6 @@ const HeaderOne = () => {
                                        <i className="fa-solid fa-envelope"></i></span>info@asparrowtech.com
                                     </a>
                                  </li>
-                                 {/* <li>
-                                    <div className="tp-header-lang-wrapper d-flex align-items-center">
-                                       <div className="tp-header-lang-img">
-                                          <Image src={LangLogo} alt="theme-pure" />
-                                       </div>
-                                       <div className="tp-header-lang">
-                                          <span className="tp-header-lang-selected-lang tp-lang-toggle" 
-                                          id="tp-header-lang-toggle" 
-                                          ref={langToggleRef}>English</span>
-                                           
-                                          <ul className={`tp-header-lang-list tp-lang-list ${isLangListOpen ? 'tp-lang-list-open' : ''}`}>
-                                             <li>Spanish</li>
-                                             <li>English</li>
-                                             <li>Canada</li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                 </li> */}
                               </ul>
                            </div>
                         </div>

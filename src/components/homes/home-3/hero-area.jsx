@@ -4,15 +4,15 @@ import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Navigation } from 'swiper';
 
-import slider_shape_1 from "@assets/img/hero/hero-3/shape-1.png";
-import slider_shape_2 from "@assets/img/hero/hero-3/shape-2.png";
-import slider_shape_3 from "@assets/img/hero/hero-3/shape-3.png";
+import slider_shape_1 from "@assets/img/hero/hero-3/shape-1.webp";
+import slider_shape_2 from "@assets/img/hero/hero-3/shape-2.webp";
+import slider_shape_3 from "@assets/img/hero/hero-3/shape-3.webp";
 
 
 const hero_slider = [
     {
         id: 1,
-        bg_slider_img: "/assets/img/hero/hero-3/hero-1.jpg",
+        bg_slider_img: "/assets/img/hero/hero-3/hero-1.webp",
         title: "Trusted it &",
         title_color: "Tech",
         title_2: "Solution",
@@ -20,7 +20,7 @@ const hero_slider = [
     },
     {
         id: 2,
-        bg_slider_img: "/assets/img/hero/hero-3/hero-2.jpg",
+        bg_slider_img: "/assets/img/hero/hero-3/hero-2.webp",
         title: "Modern it &",
         title_color: "Tech",
         title_2: "software",
@@ -28,7 +28,7 @@ const hero_slider = [
     },
     {
         id: 3,
-        bg_slider_img: "/assets/img/hero/hero-3/hero-3.jpg",
+        bg_slider_img: "/assets/img/hero/hero-3/hero-3.webp",
         title: "Trusted it &",
         title_color: "Tech",
         title_2: "professional",
