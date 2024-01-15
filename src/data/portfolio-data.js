@@ -1,10 +1,10 @@
 
-import  portfolio_img_1 from "@assets/img/portfolio/website1.png";
-import  portfolio_img_2 from "@assets/img/portfolio/website2.png";
-import  portfolio_img_3 from "@assets/img/portfolio/website3.png";
-import  portfolio_img_4 from "@assets/img/portfolio/website4.png";
-import  portfolio_img_5 from "@assets/img/portfolio/website5.png";
-import  portfolio_img_6 from "@assets/img/portfolio/website6.png"; 
+import  portfolio_img_1 from "@assets/img/portfolio/website1.webp";
+import  portfolio_img_2 from "@assets/img/portfolio/website2.webp";
+import  portfolio_img_3 from "@assets/img/portfolio/website3.webp";
+import  portfolio_img_4 from "@assets/img/portfolio/website4.webp";
+import  portfolio_img_5 from "@assets/img/portfolio/website5.webp";
+import  portfolio_img_6 from "@assets/img/portfolio/website6.webp"; 
 
 
 const portfolio_data = [

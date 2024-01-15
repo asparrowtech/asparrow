@@ -11,19 +11,19 @@ import LineArrowTwo from '@/src/svg/line-arrow-2';
 import GreenRightArrow from '@/src/svg/green-right-arrow';
 
 // fun fact shape
-import fun_fact_shape_1 from "@assets/img/fun-fact/shape-1.png";
-import fun_fact_shape_2 from "@assets/img/fun-fact/shape-2.png";
-import fun_fact_shape_3 from "@assets/img/fun-fact/shape-3.png";
-import fun_fact_shape_4 from "@assets/img/fun-fact/shape-4.png";
-import fun_fact_shape_5 from "@assets/img/fun-fact/shadow.png";
+import fun_fact_shape_1 from "@assets/img/fun-fact/shape-1.webp";
+import fun_fact_shape_2 from "@assets/img/fun-fact/shape-2.webp";
+import fun_fact_shape_3 from "@assets/img/fun-fact/shape-3.webp";
+import fun_fact_shape_4 from "@assets/img/fun-fact/shape-4.webp";
+import fun_fact_shape_5 from "@assets/img/fun-fact/shadow.webp";
 
-import reload_img from "@assets/img/fun-fact/world.png";
+import reload_img from "@assets/img/fun-fact/world.webp";
 
 
   const counter_content = [
    {
       id: 1, 
-      count: 10,
+      count: 4,
       info: "Experience",
       cls: "",
       cls_2: "purecounter",
@@ -31,19 +31,19 @@ import reload_img from "@assets/img/fun-fact/world.png";
    },
    {
       id: 2, 
-      count: 255,
-      info: "square area",
+      count: 46,
+      info: "Projects Completed",
       cls: "purecounter",
       cls_2: "",
-      icon: "",
+      icon: "+",
    },
    {
       id: 3, 
-      count: 310,
-      info: "square area",
+      count: 23,
+      info: "Ongoing Projects",
       cls: "purecounter",
       cls_2: "",
-      icon: "",
+      icon: "+",
    },
   ]
 const ServiceArea = () => {
@@ -144,13 +144,13 @@ const ServiceArea = () => {
 
                      </div>
 
-                     <div className="row">
+                     {/* <div className="row">
                         <div className="col-lg-12">
                            <div className="tp-service-all-btn text-center fadeUp">
                               <Link className="tp-btn" href="/service-details">View all Services</Link>
                            </div>
                         </div>
-                     </div>
+                     </div> */}
 
                   </div>
                </section> 
@@ -205,16 +205,32 @@ const ServiceArea = () => {
                                  <ul>
                                     <li>
                                        <span> <GreenRightArrow /></span>
-                                       series of manual and semi-manual activities.
+                                       Website Development
                                     </li>
                                     <li>
                                        <span><GreenRightArrow /> </span>
-                                       onstruction is different from other industries.
+                                       Mobile Application Development
+                                    </li>
+                                    <li>
+                                       <span><GreenRightArrow /> </span>
+                                       Digital Marketing Services
+                                    </li>
+                                    <li>
+                                       <span><GreenRightArrow /> </span>
+                                       SEO Optimization
+                                    </li>
+                                    <li>
+                                       <span><GreenRightArrow /> </span>
+                                       Cyber Security
+                                    </li>
+                                    <li>
+                                       <span><GreenRightArrow /> </span>
+                                       VAPT(Vulnerability Assessment and Penetration Testing)
                                     </li>
                                  </ul>
-                                 <div className="tp-fun-fact-btn">
+                                 {/* <div className="tp-fun-fact-btn">
                                     <Link className="tp-btn" href="/service-details">Tell us How Can We Help</Link>
-                                 </div>
+                                 </div> */}
                               </div>
                            </div>
                         </div>
