@@ -15,22 +15,22 @@ const VideoArea = ({service})  => {
                     <div className="col-xl-12">
                         <div className="tp-video-breadcrumb p-relative">
                             <Image src={video_img} alt="theme-pure" />
-                            <div className="tp-video-play text-center">
+                            {/* <div className="tp-video-play text-center">
                                 <a className="popup-video" 
                                 onClick={() => setIsVideoOpen(true)}  
                                 ><i className="fa-sharp fa-solid fa-play"></i></a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
              {/* video modal start */}
-            <VideoPopup
+            {/* <VideoPopup
                 isVideoOpen={isVideoOpen}
                 setIsVideoOpen={setIsVideoOpen}
                 videoId={"dGcsHMXbSOA"}
-            />
+            /> */}
             {/* video modal end */}
     </>
     )

@@ -13,17 +13,17 @@ const footer_contact = {
     mail: "info@asparrowtech.com",
     phone: "+91 88154 10181",
     service_links: [
-        {title: "Web Application", link: "/contact"},
-        {title: "Mobile Application", link: "/contact"},
-        {title: "CRM Development", link: "/contact"},
-        {title: "CMS Development", link: "/contact"},
-        {title: "Custom Software Development", link: "/contact"},
-        {title: "Digital Marketing", link: "/contact"},
+        {title: "Web Application", link: "/web-app"},
+        {title: "Mobile Application", link: "/mobile-app"},
+        {title: "CRM Development", link: "/crm-dev"},
+        {title: "CMS Development", link: "/cms-dev"},
+        {title: "Custom Software Development", link: "/custom-dev"},
+        {title: "Digital Marketing", link: "/digital-marketing"},
     ]
 }
 const {bg_img, footer_info, map_link, address, mail, phone, service_links} = footer_contact
 
-const FooterThree = () => {
+const   FooterThree = () => {
     return (
         <>
            <footer className="tp-footer-3-area p-relative">

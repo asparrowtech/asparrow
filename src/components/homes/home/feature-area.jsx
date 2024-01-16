@@ -19,19 +19,21 @@ const feature_content = {
             id: 1,
             img: feature_img_1,
             title: "Our mission",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+            description: <>Our Mission at Asparrow Tech is to Innovate, Elevate, and Transform Digital Experiences through Expert Website Development, 
+            Mobile Applications, and Digital Marketing Services</>,
         },
         {
             id: 2,
             img: feature_img_2,
             title: "About History",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+            description: <>Asparrow Tech's journey is a testament to innovation and digital prowess. Since inception, we've excelled in website development, 
+            mobile apps, and digital marketing, crafting a legacy of excellence</>,
         },
         {
             id: 3,
             img: feature_img_3,
             title: "Our Partners",
-            description: <>As far as we might be concerned <br /> making an extraordinary ad</>,
+            description: <>Google, Tech Mahindra, <br/>Webvillee, <br/>Yash Technologies,<br/> Vref, V</>,
         },
     ],
     
@@ -56,7 +58,7 @@ const FeatureArea = ({about}) => {
                            feature <span className="title-pre-color">IT Solutions</span>
                            <AngleArrow />
                         </span>
-                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">38 Years</span>
+                        <h3 className="tp-section-title">We’ve Been Thriving In <span className="title-color">4+ Years</span>
                            <span className="title-right-shape"> 
                               <LineArrowFive />
                            </span>
@@ -65,8 +67,8 @@ const FeatureArea = ({about}) => {
                   </div>
                   <div className="col-lg-6">
                      <div className="tp-feature-wrapper p-relative">
-                        <p>As the complexity of buildings to increase, the field of architecture <br />
-                         became multi-disciplinary with technological expertise.</p>
+                        <p> Asparrow Tech - Where Innovation Meets Excellence in Website <br/>Development, 
+                            Mobile Applications, and Digital Marketing Services.</p>
                      </div>
                   </div>
                </div>
