@@ -95,14 +95,14 @@ const menu_data = [
   //     { link: "/blog-details", title: "Blog Details" }, 
   //   ],
   // },
-  {
-    id: 5,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Blog",
-    link: "/blog-details"
+  // {
+  //   id: 5,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "Blog",
+  //   link: "/blog-details"
     
-  },
+  // },
   {
     id: 6,
     mega_menu: false,
