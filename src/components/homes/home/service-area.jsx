@@ -132,9 +132,11 @@ const ServiceArea = () => {
                                           </div>
                                           <p className="hide-text">{item.description}</p>
                                           <div className="tp-service-btn">
-                                             <Link href="/service-details">Read Out More 
+                                             {/* <Link href="/service-detail">Read Out More 
                                              <i className="fa-solid fa-arrow-up-right"></i>
-                                             </Link>
+                                             </Link> */}
+                                             <a href={item.link}>Read Out More 
+                                             <i className="fa-solid fa-arrow-up-right"></i></a>
                                           </div>
                                        </div>
                                  </SplideSlide>
