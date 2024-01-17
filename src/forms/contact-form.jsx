@@ -54,12 +54,24 @@ const ContactForm = () => {
           </div>
           <div className="col-md-6">
             <div className="tp-contact-input">
-              <input
+              {/* <input
                 name="text"
-                type="text"
+                type="select"
                 placeholder="Service Type"
                 required
-              />
+              /> */}
+              <select 
+              name="text"
+              style={{width:"100%",height:"60px",backgroundColor:"#f8f8f9",border:"1px solid #D4DCE0",outline:"0",padding:"0 25px",borderRadius:"2px",color: "var(--tp-common-black)",fontWeight:"400",fontSize:"18px"}}
+              >
+                <option>Web Development</option>
+                <option>Mobile Development</option>
+                <option>Sofware Development</option>
+                <option>CRM Development</option>
+                <option>CMS Development</option>
+                <option>Digital Marketing</option>
+                <option>Others</option>
+              </select>
             </div>
           </div>
           <div className="col-md-6">
