@@ -44,13 +44,13 @@ const HeaderOne = () => {
                            <div className="tp-header-top-info">
                               <ul>
                                  <li>
-                                    <a href="https://www.google.com/maps/@36.0758266,-79.4558848,17z" 
+                                    <a href="https://www.google.com/maps/place/Samiksh+Landmark" 
                                     target="_blank"><span>
                                        <i className="fa-sharp fa-solid fa-location-dot"></i>
                                        </span>405,Samiksh Landmark, near maa vihar colony, Indore(M.P.)</a>
                                  </li>
                                  <li>
-                                    <a href="mailto:technix@support.com"><span>
+                                    <a href="mailto:info@asparrowtech.com"><span>
                                        <i className="fa-solid fa-envelope"></i></span>info@asparrowtech.com
                                     </a>
                                  </li>
@@ -60,7 +60,7 @@ const HeaderOne = () => {
                         <div className="col-xxl-6 col-xl-4">
                            <div className="tp-header-top-right d-flex justify-content-end align-items-center">
                               <div className="header-call">
-                                 <a href="tel:01310-069824"><i className="fa-solid fa-phone"></i> +91 88154-10181</a>
+                                 <a href="tel:88154-10181"><i className="fa-solid fa-phone"></i> +91 88154-10181</a>
                               </div>
                               <div className="header-social d-xxl-block d-none">
                                  {/* <Link href="#"><i className="fa-brands fa-facebook"></i> Facebook</Link> */}
@@ -108,9 +108,9 @@ const HeaderOne = () => {
                               <div className="tp-header-search search-open-btn d-none d-xxl-block">
                                  <button onClick={() => setSearchOpen(true)}><i className="fa-regular fa-magnifying-glass"></i></button>
                               </div>
-                                 <div className="tp-header-btn d-none d-xl-block pl-40">
+                                 {/* <div className="tp-header-btn d-none d-xl-block pl-40">
                                     <Link className="tp-btn" href="/contact">Get Started Today</Link>
-                                 </div>
+                                 </div> */}
                               </div>
                            </div>
                         </div>

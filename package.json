@@ -13,6 +13,7 @@
     "@vercel/analytics": "^1.1.1",
     "@vercel/speed-insights": "^1.0.2",
     "bootstrap": "^5.2.3",
+    "emailjs-com": "^3.2.0",
     "i": "^0.3.7",
     "next": "13.3.0",
     "npm": "^10.2.5",
@@ -28,7 +29,10 @@
     "react-modal-video": "^2.0.0",
     "react-slick": "^0.29.0",
     "sass": "^1.62.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
     "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.10.3",
     "swiper": "^9.2.2",
     "wowjs": "^1.1.3"
   }

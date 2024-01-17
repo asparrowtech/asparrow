@@ -49,7 +49,7 @@ const   FooterThree = () => {
                                     </div>
                                     <div className="tp-footer-main-mail">
                                         <a href={`mailto:${mail}`}><i className="fa-light fa-message-dots"></i> 
-                                        {mail} <br /> {phone}</a>
+                                        {mail}</a> <br /> <a href={`tel:${phone}`}>{phone}</a>
                                     </div>
                                     </div>
                                 </div>

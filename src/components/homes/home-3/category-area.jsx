@@ -117,9 +117,9 @@ const CategoryArea = () => {
                     <div className="col-lg-12">
                         <div className="tp-offer-all-btn text-center mt-50">
                             <p>Bring them together and you overcome the ordinary. 
-                                <Link href="/service-details">
+                                {/* <Link href="/service-details">
                                     View More SErvice <span><i className="fa-regular fa-plus"></i></span>
-                                </Link>
+                                </Link> */}
                             </p>
                         </div>
                     </div>

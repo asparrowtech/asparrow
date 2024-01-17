@@ -108,11 +108,11 @@ const AboutArea = ({about}) => {
                             </div>
                             </div> */}
                             <div className="tp-about-3-btn-inner d-flex flex-wrap">
-                            <div className="tp-about-btn ">
+                            {/* <div className="tp-about-btn ">
                                 <Link className="tp-btn" href="/about">Our History 
                                     <i className="fa-regular fa-arrow-right-long"></i>
                                 </Link>
-                            </div>
+                            </div> */}
                             <div className="tp-about-3-year">
                                 <p>
                                     HARSHIT CHOURASIYA
