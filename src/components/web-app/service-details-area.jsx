@@ -149,11 +149,11 @@ const ServiceDetailsArea = () => {
          </section>
 
             {/* video modal start */}
-            <VideoPopup 
+            {/* <VideoPopup 
                 isVideoOpen={isVideoOpen}
                 setIsVideoOpen={setIsVideoOpen}
                 videoId={"csnD5EVL5z8"}
-            />
+            /> */}
             {/* video modal end */}
         </>
     );

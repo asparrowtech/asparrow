@@ -35,7 +35,7 @@ const ContactForm = () => {
           <div className="col-md-6">
             <div className="tp-contact-input">
               <input
-                name="name"
+                name="user_name"
                 type="text"
                 placeholder="Your Name*"
                 required
@@ -45,7 +45,7 @@ const ContactForm = () => {
           <div className="col-md-6">
             <div className="tp-contact-input">
               <input
-                name="email"
+                name="email_id"
                 type="email"
                 placeholder="Email Address*"
                 required
@@ -61,7 +61,7 @@ const ContactForm = () => {
                 required
               /> */}
               <select 
-              name="text"
+              name="service"
               style={{width:"100%",height:"60px",backgroundColor:"#f8f8f9",border:"1px solid #D4DCE0",outline:"0",padding:"0 25px",borderRadius:"2px",color: "var(--tp-common-black)",fontWeight:"400",fontSize:"18px"}}
               >
                 <option>Web Development</option>
@@ -77,7 +77,7 @@ const ContactForm = () => {
           <div className="col-md-6">
             <div className="tp-contact-input">
               <input
-                name="text"
+                name="contact_no"
                 type="text"
                 placeholder="Phone Number"
                 required
